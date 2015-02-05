@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    min-width: 100%;
+    min-height: 2800px;
+    background-color: #cfbba5;
+    background: url(../images/bg.jpg) left top no-repeat;
+}
+
+.fixed {
+    overflow: hidden;
+}
+
+header {
+    position: relative;
+    width: 982px;
+    height: 169px;
+    margin: 0 auto;
+    background: url(../images/header.png) left top no-repeat;
+}
+
+header a {
+    position: absolute;
+    display: block;
+    font-size: 0;
+    text-indent: -9999px;
+}
+
+header a.retoursite {
+    top: 100px;
+    left: 168px;
+    width: 160px;
+    height: 40px;
+}
+
+header a.logo {
+    top: 28px;
+    left: 0;
+    width: 159px;
+    height: 140px;
+}
+
+header a.profile {
+    top: 57px;
+    left: 189px;
+    width: 135px;
+    height: 42px;
+}
+header a.directory {
+    top: 57px;
+    left: 356px;
+    width: 110px;
+    height: 42px;
+}
+header a.viniboard {
+    top: 57px;
+    left: 501px;
+    width: 120px;
+    height: 42px;
+}
+
+section#filters {
+    width: 982px;
+    height: 122px;
+    margin: 19px auto 50px;
+    background: url(../images/filters.png) left top no-repeat;
+}
+
+section#content {
+    width: 982px;
+    margin: 0 auto;
+}
+
+section#content:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+section#content h1 {
+    display: block;
+    width: 262px;
+    height: 30px;
+    margin-bottom: 13px;
+    background: url(../images/h1-decouvrir.png) left top no-repeat;
+    font-size: 0;
+    text-indent: -9999px;
+}
+
+section#content #masonry .row {
+    width: 100%;
+}
+
+section#content #masonry .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+section#content #masonry .col {
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1.6%;
+}
+
+section#content #masonry .col:first-child {
+    margin: 1% 0 1% 0;
+}
+
+section#content #masonry .col-6 {
+    width: 49.2%;
+}
+
+section#content #masonry .col-12 {
+    width: 100%;
+    margin: 0;
+}
+
+section#content #masonry .first .col {
+    margin: 0;
+}
+
+section#content #masonry .item {
+    opacity: 0;
+}
+
+section.popup {
+    display: none;
+    position: fixed;
+	z-index: 1;
+    top: 0;
+    height: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../images/background-popup.png);
+}
+
+section.popup .display {
+    width: 483px;
+    margin: 5% auto 0;
+    cursor: pointer;
+}
+
+footer {
+    width: 982px;
+    height: 818px;
+    margin: 0 auto;
+    background: url(../images/footer.png) left top no-repeat;
+}
